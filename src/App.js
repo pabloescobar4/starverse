@@ -90,6 +90,7 @@ console.log(edges,"&&&&&&&&&&&&&&&&&")
       }}
     >
       <ReactFlow
+      minZoom={0.1}
         nodes={nodes}
          edges={edgesWithUpdatedTypes}
         onNodesChange={onNodesChange}
